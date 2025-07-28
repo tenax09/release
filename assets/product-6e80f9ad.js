@@ -1,0 +1,1 @@
+import{r}from"./index-49cf57c0.js";function d(t){return r({url:"/api/admin/products",method:"get",params:t})}function o(t){return r({url:"/api/admin/products",method:"post",data:t})}function n(t,u){return r({url:`/api/admin/products/${t}`,method:"put",data:u})}function a(t){return r({url:`/api/admin/products/${t}`,method:"delete"})}export{o as c,a as d,d as g,n as u};
