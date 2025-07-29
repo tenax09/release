@@ -1,1 +1,0 @@
-import{r as e}from"./index-49cf57c0.js";function u(r){return e({url:"/api/admin/insurers",method:"get",params:r})}function s(r){return e({url:"/api/admin/insurers",method:"post",data:r})}function i(r,n){return e({url:`/api/admin/insurers/${r}`,method:"put",data:n})}function a(r){return e({url:`/api/admin/insurers/${r}`,method:"delete"})}export{s as c,a as d,u as g,i as u};
