@@ -1,0 +1,1 @@
+import{r as a}from"./index-e5eccfe7.js";function e(t){return a({url:"/api/admin/contacts",method:"get",params:t})}function c(t){return a({url:"/api/admin/contacts/"+t,method:"get"})}function o(t){return a({url:"/api/admin/contacts",method:"post",data:t})}function r(t){return a({url:"/api/admin/contacts/"+t+"/cancel",method:"delete"})}export{r as a,c as b,o as c,e as g};

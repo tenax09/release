@@ -1,1 +1,0 @@
-import{r as e}from"./index-31409f0b.js";function d(t){return e({url:"/api/admin/attachments",method:"get",params:t})}function m(t){return e({url:`/api/admin/attachments/${t}`,method:"delete"})}function o(t,a,r){return e({url:`/api/admin/orders/${t}/upload?ref_id=${a}`,method:"post",data:r,headers:{"Content-Type":"multipart/form-data"}})}export{m as d,d as g,o as u};
