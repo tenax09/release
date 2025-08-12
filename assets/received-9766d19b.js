@@ -1,0 +1,1 @@
+import{r as t}from"./index-d036b99c.js";function i(e){return t({url:"/api/admin/receiveds",method:"get",params:e})}function d(e){return t({url:"/api/admin/receiveds",method:"post",data:e})}function n(e){return t({url:`/api/admin/receiveds/${e}`,method:"delete"})}export{d as c,n as d,i as g};
