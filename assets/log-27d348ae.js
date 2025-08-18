@@ -1,1 +1,0 @@
-import{r as t}from"./index-d5294a7a.js";function a(o){return t({url:"/api/admin/logs",method:"get",params:o})}function e(o){return t({url:"/api/admin/logs",method:"post",data:o})}export{e as a,a as g};
