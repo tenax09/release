@@ -1,0 +1,1 @@
+import{r as t}from"./index-55beadfc.js";function r(e,a){return t({url:`/api/admin/receivables/${e}/mark-paid`,method:"put",data:a})}function s(e){return t({url:"/api/admin/receivables/statistics",method:"get",params:e})}function n(e){return t({url:"/api/admin/receivables/list-by-day",method:"get",params:e})}export{n as a,s as g,r as m};
